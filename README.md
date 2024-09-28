@@ -2,7 +2,7 @@
 This is a web scraper to extract data from inspirehep. It can collect titles, arXiv numbers and citations of my author page ([https://inspirehep.net/authors/1622480](https://inspirehep.net/authors/1622480)). If there are new citations, it can also send me an email.
 ## Prerequisites
 This program have used the following python modules: **BeatifuleSoup**, **selenium**, **pandas**, and **smtplib**. 
-All of them can be installed by **pip**. It has been tested by chrome webdriver, which can be downloaded from [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads). 
+All of them can be installed by **pip**. It has been tested by chrome webdriver, which can be downloaded from [https://googlechromelabs.github.io/chrome-for-testing/](https://googlechromelabs.github.io/chrome-for-testing/). 
 The function for sending email has been tested by SMTP server from Google. 
 ## Usage
 After downloading the webdriver, user should give the path to the executable file to the **executable_path** in the **inspirehep_scraper.py** file.
